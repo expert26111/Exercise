@@ -1,0 +1,21 @@
+select * from customers;
+
+select name from customers;
+
+select name,last_name from customers;
+
+select name,last_name,phone,email from customers;
+
+select email,phone from customers;
+
+select name from customers where last_name ='Hansen';
+
+select name,last_name from customers where name='Per';
+
+select name,last_name from cusromers where phone=82647351;
+
+select name,phone from customers where email='bent@kea.dk';
+
+select id from customers where email='pave@kea.dk';
+
+select name,last_name from customers where name = 'Claus';
